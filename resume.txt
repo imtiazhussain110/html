@@ -1,0 +1,45 @@
+Resume 
+Imtiaz Hussain
+Coder, Programmer, and Science enthusiast
+Website: www.google.com
+Phone: 01234567890
+Github: imtiazhussain110
+
+Hey, I'm Imtiaz Hussain and I'm happy to share my HTML skills with you. Don't imitate, understand.
+
+Services
+Web Development
+Web Designing
+Science Writer
+
+Skills
+HTML
+Mark your content with with semantic HTML
+CSS
+Layout your content visually with mulitple devices
+Javascript
+Make your content more interactive, and build web applications
+
+Work History
+UI/UX Designer
+XYZ Corp
+3 years
+
+Web Developer
+ABC Corp
+5 years
+
+Carpet Cleaner
+123 inc.
+2 years
+
+Portfolio
+
+Testimonials
+Imtiaz' is the best web developer
+He explains science in a way that a layman can understand
+
+Mailing Address
+111 Main St.
+Nowhere, N 1234
+
