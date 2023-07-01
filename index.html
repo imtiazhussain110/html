@@ -5,6 +5,18 @@
     <title>Imtiaz' Resume</title>
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#workhistory">Work History</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#mailingaddress">Contact Me</a></li>
+      </ul>
+    </nav>
+
     <main>
       <h1>Resume</h1>
 
@@ -23,13 +35,13 @@
         </dl>
       </section>
 
-      <article>
+      <article id="aboutme">
         <h2>About Me</h2>
         Hey, I'm Imtiaz Hussain and I'm happy to share my HTML skills with you.
         <aside><small>Don't imitate, understand.</small></aside>
       </article>
 
-      <section>
+      <section id="services">
         <h2>Services</h2>
         <ul>
           <li>Web Development</li>
@@ -38,7 +50,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="skills">
         <h2>Skills</h2>
         <ul>
           <li>HTML Mark your content with with semantic HTML</li>
@@ -50,7 +62,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="workhistory">
         <h2>Work History</h2>
         <table>
           <thead>
@@ -86,11 +98,11 @@
         </table>
       </section>
 
-      <section>
+      <section id="portfolio">
         <h2>Portfolio</h2>
       </section>
 
-      <section>
+      <section id="portfolio">
         <h2>Testimonials</h2>
         <blockquote>
           <p>Imtiaz' <em>is the best</em> web developer</p>
@@ -100,12 +112,74 @@
         </blockquote>
       </section>
 
-      <section>
+      <section id="mailaddress">
         <h2>Mailing Address</h2>
         <address>
           111 Main St. <br />
           Nowhere, N 1234
         </address>
+      </section>
+
+      <section id="contactme">
+        <h2>Contact Me</h2>
+        <form action="formaction.html">
+          <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </p>
+          <p>
+            <label for="whycontactingme">Why contacting?</label>
+            <select name="whycontactingme" id="whycontactingme">
+              <option value="needconstractor">Need Contractor</option>
+              <option value="needassitance">Need Assitance</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="3"></textarea>
+          </p>
+          <fieldset>
+            <legend>Best Contact Time</legend>
+            <p>
+              <label for="contactme1">Morning</label>
+              <input
+                type="radio"
+                name="contactme"
+                id="contactme1"
+                value="morning"
+              />
+            </p>
+            <p>
+              <label for="contactme2">Afternoon</label>
+              <input
+                type="radio"
+                name="contactme"
+                id="contactme2"
+                value="afternoon"
+              />
+            </p>
+            <p>
+              <label for="contactme3">Evening</label>
+              <input
+                type="radio"
+                name="contactme"
+                id="contactme3"
+                value="evening"
+              />
+            </p>
+            <p>
+              <label for="asap">ASAP</label>
+              <input type="checkbox" name="asap" id="asap" />
+            </p>
+          </fieldset>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </section>
     </main>
   </body>
